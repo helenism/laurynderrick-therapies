@@ -56,9 +56,20 @@ nav li {
 .banner h3 {
   font-weight: 200;
 }
+#home-intro {
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: justify;
+}
 .expertise {
   display: flex;
   justify-content: center;
+}
+.expertise h4 {
+  font-size: 32px;
+  font-style: italic;
 }
 .expertise i {
   padding: 10px;
@@ -71,31 +82,38 @@ nav li {
   background-image: url(/images/mindfulness.jpg);
   opacity: 0.85;
   background-repeat: no-repeat;
-  background-position: 0 -250px;
+  background-position: top;
   background-size: cover;
+  background-attachment: fixed;
   display: table;
   margin: 0;
-  color: #fff;
-  text-shadow: 2px 2px 20px #111;
 }
 #about-box {
   margin-top: 20px;
-  display: flex;
 }
 #about-bio {
-  background-color: rgba(165, 165, 170, 1.00);
-  padding: 0;
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: justify;
 }
 #about-box h2 {
   font-weight: 800;
   font-size: 40px;
   color: #fff;
 }
-#about-box img {
-  max-width: 400px;
-}
 #about-pic {
-    padding: 0;
+  height: calc(400px);
+  width: 100%;
+  background-image: url(/images/therapy2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  margin: 0;
+  opacity: 0.85;
 }
 /* PUBLICATIONS */
 
@@ -119,7 +137,14 @@ nav li {
 .message-box {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(165, 165, 170, 1.00);
+  border-radius: 10px;
+  max-width: 550px;
+  box-shadow: 2px 2px 5px rgba(165, 165, 170, 1.00);
+  background-color: rgba(92, 201, 245, 0.1);
 }
 form input,
 form textarea {
@@ -132,6 +157,7 @@ input[type=submit] {
   border: 1px solid rgba(165, 165, 170, 1.00);
   border-radius: 3px;
   box-shadow: 2px 2px 5px rgba(165, 165, 170, 1.00);
+  background-color: rgba(92, 201, 245, 0.3);
 }
 input[type=submit]:focus {
   box-shadow: none;
@@ -155,7 +181,11 @@ input[type=submit]:focus {
 }
 /* ADDRESS */
 .address-box {
-  padding: 10px 0;
+  padding: 10px;
+  border: 1px solid rgba(165, 165, 170, 1.00);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(165, 165, 170, 1.00);
 }
 .map-pic {
   background-image: url(/images/map.jpg);
@@ -181,14 +211,21 @@ input[type=submit]:focus {
 }
 .address {
   color: rgba(165, 165, 170, 1.00);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.address h4 {
-  font-size: 20px;
-  line-height: 30px;
+.address h3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+.address ul {
+  margin-top: 15px;
 }
 .address i {
   padding: 10px;
+  color: rgba(92, 201, 245, 0.7);
 }
 .address li {
-  font-size: 20px;
+  font-size: 30px;
 }

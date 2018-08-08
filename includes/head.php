@@ -22,7 +22,7 @@ if (!isset($soda)) {
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
   <!-- GOOGLE FONT -->
-  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Sans+Narrow" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
